@@ -1,0 +1,87 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #cecece;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: #e8e7e7;
+    box-shadow: 0 0 10px rgba(0,0,0,.4)
+}
+.header .logo{
+    color: #222;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header a span{
+    color: #25ad61;
+}
+.header .navbar a{
+    color: #000;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.navbar a.active{
+    background: #25ad61;
+    color: #fff;
+}
+    .icon > .activity-section {
+        display: inline-block;
+    }
+.activity-section i{
+    color: #222;
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.btn{
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    width: 140px;
+    border-radius: 8px;
+    background: #121b46;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #121b46;
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 1;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e8e7e7;
+    height: 100%;
+    width: 00%;
+    z-index: -1;
+    transition: 0.3s;
+}
+.btn:hover:before{
+    width: 100%;
+}
+.btn:hover{
+    color: #121b46;
+}
