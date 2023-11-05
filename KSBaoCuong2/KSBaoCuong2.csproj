@@ -146,11 +146,13 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\DangKy.css" />
     <Content Include="Content\DangNhap.css" />
+    <Content Include="Content\GiaoDien.css" />
     <Content Include="Content\LayOut.css" />
     <Content Include="Content\nendndk.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\images.jpeg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -158,6 +160,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\GiaoDien.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -185,6 +188,7 @@
     <Content Include="Views\Main\DangKy.cshtml" />
     <Content Include="Views\Main\DangNhap.cshtml" />
     <Content Include="Views\Main\LayOut.cshtml" />
+    <Content Include="Views\Main\GiaoDien.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

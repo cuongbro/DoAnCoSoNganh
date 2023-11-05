@@ -1,0 +1,230 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Quicksand;
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoICAgICAoIBwcHCAoHBwcHCA8ICQcKIBEWFiARHxMYHSggGBolGxUfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0PFSsZFRkrKy03Ny0rKystNysrLSstKysrKzcrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIARMAtwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABsQAQEBAQADAQAAAAAAAAAAAAABERIxQfAC/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQESAv/aAAwDAQACEQMRAD8A9dGsXHCsRkVcKRkXApGcMaMKRnDGsFpGcGgpERvEwpGRrDEpGRrBaRkxoKRnDFwwqRMRrAI2jWDDbJjSKGACJgoIhigAAqDQDI1hgsZMawwGTGsMSkZwxcMUiYLgEaQTUibqolTVjO+l01m1NajG+mtXXPTSJ22axppDt001iVdIuem9VjVlZjeemlZ1UjWaoA0AIoKAgKDnqWprNrpHn301azqWs2tZjlvprUtYtTWo577b6OnPTVjHbp0dOemkO3XVlcpVlTfLWe3XV1zn6WVncdc9OsWVzlalZ3HXPToMausx0zWxnV0jVUTU1ItaE0ItcbWbS1mu+Y8PrS1m0rOtZjj61dZtKlrWY5bpprIsYrWrrCwhWtWVhpNxrNblalc5WpWdx2866SrKxKsrO47eddF1jVZ3HXNbXWNVI3mtaazokarQyEK4pRK7x4tRmqiuWoipWnLUFQYRVFIKio3itRmLGXTGo1GYqR28tSrKyrMdc1pdZEjea1prJpFreomhCuaKOsebWUaQc9xlGjFY3GUxrDFZ5ZGsMDlFwxUazCKRUbzCKQHTFVFSN4KgRqqAkaoAQrKKNuW4iKDO4zg0is75ZGgTlkaA5QUF5FBGoKijWYKijQAAqAoAQRAaQBcERFwCJgoJAAIYAEABRUBVEEFE1VDVQQAAD7wUVUFAAAgIqERQCAAQwAAAIABAVFAAAAFARoACGCARRAWKIBFEAiiARRFEgYAQACCKCRBoCINIzXSIKFWIKhVgAVeUFA5ACnIAVOQFKRBQqRBoKkZVcMKkQMUpAxRmu3LIqJV5ACrygBV5ACryAFOQFKnIAVOQxQqcgotZ5RTDCpAAICjDvGRagsEKDUQAWAgLFEUSCoBFVFGYKAkBVisxBcBIACQqVUR3iVFBYlQqDUAQWAgEURQiiKEVYiwZ3FCAm4qoozFCKJAASMlCo6xkEoqIUVpEAUBBYoAkUiKCtRlRGosRYjKgsEFAZBYAwVUo2zUq1BUZq1FaQBFQBVFRQFRYIsVFgitRmNRGVWIqooKMgCDNZqA0h6AaxmoCtIgClQAFAFWAgNQFZWNRBE1qLAGVUBCgKj//2Q==);
+    background-size: 100%;
+}
+.Item-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+.container {
+    width: 70%;
+    height: 200vh;
+    margin-top: 100px;
+    background: #edebb6;
+    border-radius: 30px;
+    box-shadow: 0 25px 40px #edebb6;
+}
+    .container .header{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 5%;
+        align-items: center;
+    }
+        .container .header h3{
+            font-size: 20px;
+            color:#000000;
+        }
+        .header .heading {
+            font-family: 16px;
+        }
+.header .action{
+    font-size: 16px;
+    color: #e44c4c;
+    cursor: pointer;
+    font-weight: 600;
+    border-bottom: 1px solid #344c4c;
+}
+.addtocart{
+    box-shadow: 0 0 2px #2f3841;
+    height: 300px;
+    width: 94%;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 25px;
+    background: #f9fae8;
+}
+    .addtocart .cuong {
+        flex-direction: column;
+    }
+    .addtocart img {
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .addtocart .cuong h2 {
+        margin-top: -250px;
+        margin-left: 320px;
+    }
+    .addtocart .cuong h1 {
+        margin-top: 15px;
+        margin-left: 320px;
+        word-wrap: break-word;
+        max-width: 400px;
+        overflow-y: auto;
+        font-size: 15px;
+    }
+.btn {
+    position: absolute;
+    margin-left: 320px;
+    padding: 10px;
+    width: 230px;
+    height: 45px;
+    margin-top: 100px;
+    background: #e44c4c;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.btnxtt {
+    position: absolute;
+    margin-left: 600px;
+    padding: 10px;
+    width: 50px;
+    height: 45px;
+    margin-top: 100px;
+    background: #e44c4c;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.btn:hover {
+    background: #e44c4c;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00fffc;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.btnxtt:hover {
+    background: #e44c4c;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00fffc;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.btn:active{
+    transform: scale(.9);
+}
+    .btn .fa-cart-shopping {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: -10%;
+        font-size: 2em;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+    .btn.clicked .fa-cart-shopping {
+        animation: cart 1.5s ease-in-out forwards;
+    }
+
+@keyframes cart {
+    0% {
+        left: 5%;
+        opacity: 1;
+    }
+
+    40%, 60% {
+        left: 50%;
+        opacity: 1;
+    }
+
+    100% {
+        left: 111%;
+        opacity: 0;
+    }
+}
+.btn .fa-box {
+    position: absolute;
+    z-index: 3;
+    top: -10%;
+    left: 52%;
+    font-size: 1.2em;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.btn.clicked .fa-box {
+    animation: Box 1.5s ease-in-out forwards;
+}
+@keyframes Box{
+    0%,40% {
+        top: -10%;
+        
+    }
+    60% {
+        top: 40%;
+        left: 52%;
+        opacity: 1;
+    }
+    100% {
+        top: 40%;
+        left: 111%;
+        opacity: 0;
+    }
+}
+.addCart{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 1.2em;
+    transform: translate(-50%, -50%);
+}
+.btn span.addCart{
+    opacity: 1;
+}
+.btn.clicked span.addCart{
+    animation: txt1 1.5s ease-in-out forwards;
+}
+@keyframes txt1 {
+    0% {
+        opacity: 1;
+    }
+    20%,100%{
+        opacity: 0;
+    }
+}
+.btn span.Added {
+    opacity: 0;
+    font-size: 1.2em;
+}
+
+.btn.clicked span.Added {
+    animation: txt2 1.5s ease-in-out forwards;
+}
+
+@keyframes txt2 {
+    0%,80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
