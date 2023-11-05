@@ -19,7 +19,7 @@ body {
 }
 .container {
     width: 70%;
-    height: 200vh;
+    height: 290vh;
     margin-top: 100px;
     background: #edebb6;
     border-radius: 30px;
@@ -40,13 +40,6 @@ body {
         .header .heading {
             font-family: 16px;
         }
-.header .action{
-    font-size: 16px;
-    color: #e44c4c;
-    cursor: pointer;
-    font-weight: 600;
-    border-bottom: 1px solid #344c4c;
-}
 .addtocart{
     box-shadow: 0 0 2px #2f3841;
     height: 300px;
@@ -227,4 +220,41 @@ body {
     100% {
         opacity: 1;
     }
+}
+.ThanhChuyen {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 500px;
+    background: #fff;
+    border-radius: 10px
+}
+.number{
+    display: flex;
+}
+.number span {
+    height: 40px;
+    width: 40px;
+    background: #344c4c;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    display:flex;
+    cursor: pointer;
+}
+.PreviewBtn{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    font-size: 35px;
+}
+.button.active{
+    color: rgba(250,0,250);
 }

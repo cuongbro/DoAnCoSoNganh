@@ -8,15 +8,14 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>GiaoDien</title>
-    <link rel="stylesheet" type="text/css" href="~/Content/GiaoDien.css" />
+    <title>Danh sách phòng</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/DSPhong.css" />
     <script src="https://kit.fontawesome.com/d39b623768.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h3 class="heading">Danh sách phòng</h3>
-            <h5 class="action">Thoát</h5>
         </div>
         <div class="Item-box">
             <div class="addtocart">
@@ -63,7 +62,7 @@
             </div>
             <div class="addtocart">
                 <div class="image">
-                    <img src=https://ezcloud.vn/wp-content/uploads/2019/07/4649_abc-1.jpg.webp alt="" />
+                    <img src=https://pix10.agoda.net/hotelImages/535/535879/535879_16092810300047027659.jpg alt="" />
                 </div>
                 <div class="cuong">
                     <h2>Phòng 03</h2>
@@ -82,8 +81,63 @@
                     </button>
                 </div>
             </div>
+            <div class="addtocart">
+                <div class="image">
+                    <img src=https://kientrucnamcuong.vn/wp-content/uploads/2020/10/giuong-khach-san-5-sao-14.jpg alt="" />
+                </div>
+                <div class="cuong">
+                    <h2>Phòng 04</h2>
+                    <h1>
+                        Giới thiệu: Phòng này xịn lắm tin bọn tui đi.
+                    </h1>
+                    <h1>Giá: 1.299.999 VNĐ / 1 ngày</h1>
+                    <button class="btn">
+                        <i class="fas fa-cart-shopping"></i>
+                        <i class="fas fa-box"></i>
+                        <span class="addCart">Thêm Phòng</span>
+                        <span class="Added">Thêm thành công</span>
+                    </button>
+                    <button class="btnxtt">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
             </div>
+            <div class="addtocart">
+                <div class="image">
+                    <img src=https://chumy.vn/wp-content/uploads/2019/12/giuong-khach-san-double-size.jpg alt="" />
+                </div>
+                <div class="cuong">
+                    <h2>Phòng 05</h2>
+                    <h1>
+                        Giới thiệu: Phòng này xịn lắm tin bọn tui đi.
+                    </h1>
+                    <h1>Giá: 1.299.999 VNĐ / 1 ngày</h1>
+                    <button class="btn">
+                        <i class="fas fa-cart-shopping"></i>
+                        <i class="fas fa-box"></i>
+                        <span class="addCart">Thêm Phòng</span>
+                        <span class="Added">Thêm thành công</span>
+                    </button>
+                    <button class="btnxtt">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="ThanhChuyen">
+            <button class="PreviewBtn" onclick="SideSlide(-1)"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+            <div class="number">
+                <span onclick="btnSlide(1)">1</span>
+                <span onclick="btnSlide(2)">2</span>
+                <span onclick="btnSlide(3)">3</span>
+                <span onclick="btnSlide(4)">4</span>
+                <span onclick="btnSlide(5)">5</span>
+            </div>
+            <button class="PreviewBtn" onclick="SideSlide(+1)"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+        </div>
     </div>
-    <script src="~/Scripts/GiaoDien.js"></script>
+
+    <script src="~/Scripts/DSPhong.js"></script>
+    <script src="~/Scripts/ShowColor.js"></script>
 </body>
 </html>

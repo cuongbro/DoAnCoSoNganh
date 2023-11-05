@@ -6,3 +6,4 @@ function btnFunction() {
     let button = this;
     button.classList.add('clicked');
 }
+

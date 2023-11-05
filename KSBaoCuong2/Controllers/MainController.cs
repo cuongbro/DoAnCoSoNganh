@@ -21,7 +21,23 @@ namespace KSBaoCuong2.Controllers
         {
             return View();
         }
-        public ActionResult GiaoDien()
+        public ActionResult  DSPhong()
+        {
+            return View();
+        }
+        public ActionResult DSPhong2()
+        {
+            return View();
+        }
+        public ActionResult DSPhong3()
+        {
+            return View();
+        }
+        public ActionResult DSPhong4()
+        {
+            return View();
+        }
+        public ActionResult DSPhong5()
         {
             return View();
         }

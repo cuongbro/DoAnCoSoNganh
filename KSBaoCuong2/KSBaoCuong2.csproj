@@ -146,7 +146,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\DangKy.css" />
     <Content Include="Content\DangNhap.css" />
-    <Content Include="Content\GiaoDien.css" />
+    <Content Include="Content\DSPhong.css" />
     <Content Include="Content\LayOut.css" />
     <Content Include="Content\nendndk.jpg" />
     <Content Include="favicon.ico" />
@@ -160,7 +160,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Scripts\GiaoDien.js" />
+    <Content Include="Scripts\DSPhong.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -171,6 +171,11 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\ShowColor.js" />
+    <Content Include="Scripts\ShowColor2.js" />
+    <Content Include="Scripts\ShowColor3.js" />
+    <Content Include="Scripts\ShowColor4.js" />
+    <Content Include="Scripts\ShowColor5.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -188,7 +193,11 @@
     <Content Include="Views\Main\DangKy.cshtml" />
     <Content Include="Views\Main\DangNhap.cshtml" />
     <Content Include="Views\Main\LayOut.cshtml" />
-    <Content Include="Views\Main\GiaoDien.cshtml" />
+    <Content Include="Views\Main\DSPhong.cshtml" />
+    <Content Include="Views\Main\DSPhong2.cshtml" />
+    <Content Include="Views\Main\DSPhong3.cshtml" />
+    <Content Include="Views\Main\DSPhong4.cshtml" />
+    <Content Include="Views\Main\DSPhong5.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
