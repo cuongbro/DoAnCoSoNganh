@@ -25,19 +25,15 @@ namespace KSBaoCuong2.Controllers
         {
             return View();
         }
-        public ActionResult DSPhong2()
+        public ActionResult TrangChu()
         {
             return View();
         }
-        public ActionResult DSPhong3()
+        public ActionResult Datphong()
         {
             return View();
         }
-        public ActionResult DSPhong4()
-        {
-            return View();
-        }
-        public ActionResult DSPhong5()
+        public ActionResult XoaPhong()
         {
             return View();
         }
