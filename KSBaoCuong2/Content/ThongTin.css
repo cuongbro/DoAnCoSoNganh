@@ -1,0 +1,59 @@
+﻿body {
+    background: url(thongtinbackgrou.jpg);
+    background-size: cover;
+}
+.title{
+    color: snow;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.table-a {
+    background: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add margin to the top of the table */
+}
+
+    .table-a th, .table-a td {
+        border: 1px solid black;
+        padding: 15px; /* Adjust padding for cells */
+        text-align: center;
+    }
+
+    .table-a img.hinhanh {
+        max-width: 200px;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .table-a .btn {
+        cursor: pointer;
+        font-size: 14px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        width: 90px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .btn:hover{
+        background: #ffd800;
+        color: #000000;
+    }
+.btnadd {
+    background: #ffd800;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.btnadd:hover{
+    background: #ff6a00;
+}

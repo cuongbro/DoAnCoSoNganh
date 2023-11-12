@@ -37,5 +37,9 @@ namespace KSBaoCuong2.Controllers
         {
             return View();
         }
+        public ActionResult ThongTin()
+        {
+            return View();
+        }
     }
 }
