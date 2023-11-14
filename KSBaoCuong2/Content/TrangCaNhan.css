@@ -1,0 +1,109 @@
+﻿body {
+    background: #808080;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.khung {
+    width: 30%;
+    height: 600px;
+    margin-top: 20px;
+    background: #edebb6;
+    border-radius: 30px;
+    box-shadow: 0px 0px 100px #fff;
+    display: relative;
+    flex-direction: column;
+    align-items: center;
+}
+.h1{
+}
+.img{
+    margin-top: 10px;
+    width: 220px;
+    height: 220px;
+}
+.header{
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header > .img{
+    width: 9em;
+    height: 9em;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    box-shadow: red 0px 2px 8px 0px;
+}
+    .header > .h1 {
+        display: inline-block;
+        font-size: 1.3em;
+        font-weight: bold;
+        border-radius: 1em;
+        background: #000000;
+        color: #fff;
+        padding: 0.3em 0.6em;
+        border: 2px solid #fffa;
+        border: none;
+    }
+.ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ul > div{
+    width: 350px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+.li {
+    margin: 6px 0;
+    padding: 3px;
+    color: #000000;
+    font-size: 20px;
+}
+.li input{
+    color: #2c26c0;
+    width: 235px;
+    height: 5px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+}
+.btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    margin-right: 85px;
+    cursor: pointer;
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+    .btn:hover {
+        background: #61db7a;
+        transform: scale(1.2);
+    }
+.btnql {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+    .btnql:hover {
+        background: #61db7a;
+        transform: scale(1.2);
+    }

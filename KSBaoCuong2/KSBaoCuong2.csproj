@@ -152,10 +152,12 @@
     <Content Include="Content\hoboi.jpg" />
     <Content Include="Content\LayOut.css" />
     <Content Include="Content\nendndk.jpg" />
+    <Content Include="Content\nentrangcanhan.jpg" />
     <Content Include="Content\pexels-pixabay-258154.jpg" />
     <Content Include="Content\phong.jpg" />
     <Content Include="Content\ThongTin.css" />
     <Content Include="Content\thongtinbackgrou.jpg" />
+    <Content Include="Content\TrangCaNhan.css" />
     <Content Include="Content\TrangChu.css" />
     <Content Include="Content\XoaPhong.css" />
     <Content Include="favicon.ico" />
@@ -208,6 +210,7 @@
     <Content Include="Views\Main\XoaPhong.cshtml" />
     <Content Include="Views\Main\TrangChu.cshtml" />
     <Content Include="Views\Main\ThongTin.cshtml" />
+    <Content Include="Views\Main\TrangCaNhan.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
